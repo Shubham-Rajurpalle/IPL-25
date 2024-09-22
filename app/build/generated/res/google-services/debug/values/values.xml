@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://ipl24-c3703-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">352743346633</string>
+    <string name="google_api_key" translatable="false">AIzaSyCvttyzy-oiULKV2MaVfjcVqEgIrs0iu1w</string>
+    <string name="google_app_id" translatable="false">1:352743346633:android:39b2b4fe67230cf20e1818</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCvttyzy-oiULKV2MaVfjcVqEgIrs0iu1w</string>
+    <string name="google_storage_bucket" translatable="false">ipl24-c3703.appspot.com</string>
+    <string name="project_id" translatable="false">ipl24-c3703</string>
+</resources>
