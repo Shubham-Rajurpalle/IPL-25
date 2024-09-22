@@ -116,6 +116,8 @@ class MainActivity : AppCompatActivity() {
                 pointTable= snapshot.child("pointTable").getValue(String::class.java).toString()
 
             }
+            override fun onCancelled(error: DatabaseError) {
+            }
 
         })
 
