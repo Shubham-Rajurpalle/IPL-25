@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group
+        android:id="@+id/group_divider1">
+    <item
+        android:id="@+id/shareApp"
+        android:title="Share"
+        android:icon="@drawable/baseline_share_24"/>
+
+    </group>
+
+    <group
+        android:id="@+id/group_divider2">
+
+    <item
+        android:icon="@drawable/rate"
+        android:title="Rate App"
+        android:id="@+id/rateApp"/>
+
+    </group>
+
+
+    <group
+        android:id="@+id/group_divider3">
+
+    <item
+        android:id="@+id/privacyP"
+        android:title="Privacy Policy"
+        android:icon="@drawable/privacy"/>
+
+</group>
+</menu>

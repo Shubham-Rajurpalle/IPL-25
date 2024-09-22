@@ -1,0 +1,120 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id("com.google.gms.google-services")
+}
+
+android {
+    namespace 'com.crick.ipl25'
+    compileSdk 34
+
+    buildFeatures {
+        compose = true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.13"
+    }
+
+    defaultConfig {
+        applicationId "com.crick.ipl25"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    buildFeatures {
+        dataBinding = true
+    }
+}
+
+dependencies {
+    implementation (platform("org.jetbrains.kotlin:kotlin-bom:1.8.0"))
+    implementation 'androidx.core:core-ktx:1.9.23'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.activity:activity:1.8.0'
+    implementation 'com.google.ai.client.generativeai:generativeai:0.7.0'
+    implementation 'com.google.firebase:firebase-vertexai:16.0.0-beta01'
+    implementation 'com.google.firebase:firebase-firestore-ktx:25.0.0'
+    implementation 'androidx.compose.runtime:runtime-android:1.6.7'
+    implementation 'androidx.compose.ui:ui-android:1.6.7'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'com.google.android.gms:play-services-ads:21.3.0'
+    implementation('com.squareup.retrofit2:converter-gson:2.11.0')
+    implementation('com.squareup.retrofit2:retrofit:2.11.0')
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
+    implementation 'com.intuit.sdp:sdp-android:1.1.1'
+    implementation 'com.intuit.ssp:ssp-android:1.1.1'
+
+    implementation 'com.airbnb.android:lottie:6.4.0'
+
+    def lifecycle_version = "2.7.0"
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
+    kapt("androidx.lifecycle:lifecycle-compiler:$lifecycle_version")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
+    kapt("androidx.lifecycle:lifecycle-compiler:$lifecycle_version")
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.16.0'
+
+    // Use the BoM to manage Firebase versions
+    implementation(platform("com.google.firebase:firebase-bom:32.8.1"))
+    implementation("com.google.firebase:firebase-analytics")
+    implementation("com.google.firebase:firebase-database")
+
+    implementation("com.google.firebase:firebase-storage")
+    implementation("com.google.firebase:firebase-common") // Add this line to ensure firebase-common uses the version specified by the BoM
+    kapt 'com.github.bumptech.glide:compiler:4.16.0'
+
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9")
+
+    implementation 'com.google.android.gms:play-services-ads:23.1.0'
+
+
+    //Jetpack Compose
+
+
+        def composeBom = platform("androidx.compose:compose-bom:2024.05.00")
+        implementation(composeBom)
+        androidTestImplementation(composeBom)
+        implementation("androidx.compose.material3:material3")
+        implementation("androidx.compose.material:material")
+        implementation("androidx.compose.foundation:foundation")
+        implementation("androidx.compose.ui:ui")
+        implementation("androidx.compose.ui:ui-tooling-preview")
+        debugImplementation("androidx.compose.ui:ui-tooling")
+        androidTestImplementation("androidx.compose.ui:ui-test-junit4")
+        debugImplementation("androidx.compose.ui:ui-test-manifest")
+        implementation("androidx.compose.material:material-icons-core")
+        implementation("androidx.compose.material:material-icons-extended")
+        implementation("androidx.compose.material3:material3-window-size-class")
+        implementation("androidx.activity:activity-compose:1.9.0")
+        implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1")
+        implementation("androidx.compose.runtime:runtime-livedata")
+        implementation("androidx.compose.runtime:runtime-rxjava2")
+
+
+}
+
