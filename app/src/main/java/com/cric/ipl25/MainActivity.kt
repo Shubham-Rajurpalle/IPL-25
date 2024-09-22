@@ -116,9 +116,6 @@ class MainActivity : AppCompatActivity() {
                 pointTable= snapshot.child("pointTable").getValue(String::class.java).toString()
 
             }
-            override fun onCancelled(error: DatabaseError) {
-                TODO("Not yet implemented")
-            }
 
         })
 
@@ -489,7 +486,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         directBtn.setOnClickListener {
-            val i=Intent(this@MainActivity,live_score::class.java)
+            var i=Intent(this@MainActivity,live_score::class.java)
                 i.putExtra("key",liveScoreLink)
                 startActivity(i)
         }
