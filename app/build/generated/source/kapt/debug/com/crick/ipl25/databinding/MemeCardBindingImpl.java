@@ -1,5 +1,4 @@
 package com.crick.ipl25.databinding;
-import com.cric.ipl25.meme.Meme_data;
 import com.crick.ipl25.R;
 import com.crick.ipl25.BR;
 import androidx.annotation.NonNull;
@@ -75,7 +74,7 @@ public class MemeCardBindingImpl extends MemeCardBinding  {
     public boolean setVariable(int variableId, @Nullable Object variable)  {
         boolean variableSet = true;
         if (BR.memeCard == variableId) {
-            setMemeCard((Meme_data) variable);
+            setMemeCard((com.cric.ipl25.meme.Meme_data) variable);
         }
         else {
             variableSet = false;
@@ -83,7 +82,7 @@ public class MemeCardBindingImpl extends MemeCardBinding  {
             return variableSet;
     }
 
-    public void setMemeCard(@Nullable Meme_data MemeCard) {
+    public void setMemeCard(@Nullable com.cric.ipl25.meme.Meme_data MemeCard) {
         this.mMemeCard = MemeCard;
         synchronized(this) {
             mDirtyFlags |= 0x1L;
@@ -108,7 +107,7 @@ public class MemeCardBindingImpl extends MemeCardBinding  {
         }
         java.lang.String memeCardYourTeam = null;
         int memeCardLikes = 0;
-        Meme_data memeCard = mMemeCard;
+        com.cric.ipl25.meme.Meme_data memeCard = mMemeCard;
         java.lang.String stringValueOfMemeCardLikes = null;
 
         if ((dirtyFlags & 0x3L) != 0) {

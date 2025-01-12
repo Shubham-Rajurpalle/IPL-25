@@ -14,15 +14,10 @@ import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.crick.ipl25.R
-import com.google.android.gms.ads.AdRequest
-import com.google.android.gms.ads.MobileAds
-import com.google.android.gms.ads.interstitial.InterstitialAd
-import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 
 class chatN : AppCompatActivity(), ChatAdapter.ReportListener,
     reportFragmentChat.ReportConfirmationListener {
 
-    private var mInterstitialAd: InterstitialAd? = null
     private val TAG = "chat_activity"
 
     private val viewModel: ChatViewModel by viewModels()
@@ -42,9 +37,6 @@ class chatN : AppCompatActivity(), ChatAdapter.ReportListener,
             window.statusBarColor = ContextCompat.getColor(this, R.color.status_bar_color)
         }
 
-        MobileAds.initialize(this) { initializationStatus ->
-            loadInterstitialAd()
-        }
 
         teamId = intent.getStringExtra("teamId").orEmpty()
         teamName = intent.getStringExtra("teamName").orEmpty()
@@ -63,19 +55,19 @@ class chatN : AppCompatActivity(), ChatAdapter.ReportListener,
         })
     }
 
-    override fun onReportConfirming(chatMessage: String, reportCount: Int) {
+    override fun onReportConfirming(messageId: String, reportCount: Int) {
         val fragment = reportFragmentChat().apply {
             arguments = Bundle().apply {
-                putString("ChatMessage", chatMessage)
-                putInt("reportCount", reportCount)
+                putString("ChatMessage", messageId)
+                putInt("reportCount", reportCount + 1) // Increment here
             }
         }
         fragment.setReportConfirmationListener(this)
         fragment.show(supportFragmentManager, "reportFragmentChat")
     }
 
-    override fun onReportConfirmed(chatId: String, reportCount: Int) {
-        viewModel.updateReportCount(chatId, reportCount)
+    override fun onReportConfirmed(messageId: String, reportCount: Int) {
+        viewModel.updateReportCount(messageId, reportCount)
     }
 
     private fun setupTeamData() {
@@ -129,25 +121,5 @@ class chatN : AppCompatActivity(), ChatAdapter.ReportListener,
         }
     }
 
-    fun loadInterstitialAd() {
-        val adRequest =AdRequest.Builder().build()
-        InterstitialAd.load(this, "ca-app-pub-1572144131676861/8859972880", adRequest, object : InterstitialAdLoadCallback() {
-            override fun onAdLoaded(interstitialAd: InterstitialAd) {
-                Log.d(TAG, "Ad was loaded")
-                mInterstitialAd = interstitialAd
-                mInterstitialAd?.show(this@chatN)
-            }
 
-            override fun onAdFailedToLoad(loadAdError: com.google.android.gms.ads.LoadAdError) {
-                Log.d(TAG, "Ad failed to load: ${loadAdError.message}")
-                mInterstitialAd = null
-            }
-        })
-    }
-
-    override fun onBackPressed() {
-        mInterstitialAd?.let {
-            it.show(this)
-        } ?: super.onBackPressed()
-    }
 }

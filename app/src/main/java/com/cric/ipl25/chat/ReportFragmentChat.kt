@@ -10,7 +10,7 @@ import com.crick.ipl25.databinding.FragmentReportChatBinding
 class reportFragmentChat : DialogFragment() {
 
     private lateinit var binding: FragmentReportChatBinding
-    private var chatId: String? = null
+    private var messageId: String? = null
     private var reportCount: Int? = null
     private var listener: ReportConfirmationListener? = null
 
@@ -24,12 +24,12 @@ class reportFragmentChat : DialogFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        chatId = arguments?.getString("ChatMessage")
+        messageId = arguments?.getString("ChatMessage")
         reportCount = arguments?.getInt("reportCount")
 
         binding.confirmButton.setOnClickListener {
-            if (chatId != null && reportCount != null) {
-                listener?.onReportConfirmed(chatId!!, reportCount!!)
+            if (messageId != null && reportCount != null) {
+                listener?.onReportConfirmed(messageId!!, reportCount!!)
                 dismiss()
             }
         }
@@ -40,7 +40,7 @@ class reportFragmentChat : DialogFragment() {
     }
 
     interface ReportConfirmationListener {
-        fun onReportConfirmed(chatId: String, reportCount: Int)
+        fun onReportConfirmed(messageId: String, reportCount: Int)
     }
 
     fun setReportConfirmationListener(listener: ReportConfirmationListener) {

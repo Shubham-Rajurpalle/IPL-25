@@ -7,7 +7,7 @@
     android:background="@color/blue"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
-    tools:context="com.cric.ipl25.money_activity">
+    tools:context="com.cric.ipl25.money.money_activity">
 
     <ImageView
         android:id="@+id/imageView3"

@@ -23,15 +23,15 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
-    <string name="App_top">IPL 2025</string>
-    <string name="app_name">IPL 25</string>
+    <string name="App_top" translatable="false">IPL 2025</string>
+    <string name="app_name" translatable="false">IPL 25</string>
     <string name="firebase_database_url" translatable="false">https://ipl24-c3703-default-rtdb.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">352743346633</string>
     <string name="google_api_key" translatable="false">AIzaSyCvttyzy-oiULKV2MaVfjcVqEgIrs0iu1w</string>
     <string name="google_app_id" translatable="false">1:352743346633:android:39b2b4fe67230cf20e1818</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCvttyzy-oiULKV2MaVfjcVqEgIrs0iu1w</string>
     <string name="google_storage_bucket" translatable="false">ipl24-c3703.appspot.com</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
     <string name="project_id" translatable="false">ipl24-c3703</string>
     <style name="CardView." parent="CardView">
         <item name="android:foreground">@drawable/box</item>

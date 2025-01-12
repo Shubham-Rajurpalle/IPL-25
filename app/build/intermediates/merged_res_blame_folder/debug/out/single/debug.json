@@ -8,12 +8,12 @@
         "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\drawable\\lsg.png"
     },
     {
-        "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-merged_res-85:\\drawable_ws.jpg.flat",
-        "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\drawable\\ws.jpg"
-    },
-    {
         "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-merged_res-85:\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-merged_res-85:\\drawable_ws.jpg.flat",
+        "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\drawable\\ws.jpg"
     },
     {
         "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-merged_res-85:\\layout_meme_card.xml.flat",
@@ -72,6 +72,10 @@
         "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\drawable\\like_blue.png"
     },
     {
+        "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-merged_res-85:\\layout_fragment_report_chat.xml.flat",
+        "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\layout\\fragment_report_chat.xml"
+    },
+    {
         "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-merged_res-85:\\layout_answer_wrong_right.xml.flat",
         "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\layout\\answer_wrong_right.xml"
     },
@@ -86,10 +90,6 @@
     {
         "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-merged_res-85:\\drawable_mac.jpg.flat",
         "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\drawable\\mac.jpg"
-    },
-    {
-        "merged": "com.crick.ipl25.app-merged_res-85:/layout_fragment_report_chat.xml.flat",
-        "source": "com.crick.ipl25.app-main-87:/layout/fragment_report_chat.xml"
     },
     {
         "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-merged_res-85:\\drawable_report_vector.xml.flat",
@@ -148,12 +148,12 @@
         "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\menu\\drawer_menu.xml"
     },
     {
-        "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-merged_res-85:\\layout_venue_item_layout.xml.flat",
-        "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\layout\\venue_item_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-merged_res-85:\\drawable_nms.jpg.flat",
         "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\drawable\\nms.jpg"
+    },
+    {
+        "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-merged_res-85:\\layout_venue_item_layout.xml.flat",
+        "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\layout\\venue_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-merged_res-85:\\mipmap-hdpi_ic_launcher_round.webp.flat",
@@ -196,12 +196,12 @@
         "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\drawable\\venue_b.jpg"
     },
     {
-        "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-merged_res-85:\\raw_load_ring.json.flat",
-        "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\raw\\load_ring.json"
-    },
-    {
         "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-merged_res-85:\\drawable_splash_screen.jpg.flat",
         "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\drawable\\splash_screen.jpg"
+    },
+    {
+        "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-merged_res-85:\\raw_load_ring.json.flat",
+        "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\raw\\load_ring.json"
     },
     {
         "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-merged_res-85:\\mipmap-xhdpi_ic_launcher.webp.flat",
@@ -210,6 +210,10 @@
     {
         "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-merged_res-85:\\layout_activity_winners.xml.flat",
         "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\layout\\activity_winners.xml"
+    },
+    {
+        "merged": "com.crick.ipl25.app-merged_res-85:/layout_header_drawer.xml.flat",
+        "source": "com.crick.ipl25.app-main-87:/layout/header_drawer.xml"
     },
     {
         "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-merged_res-85:\\drawable_isbp.jpg.flat",
@@ -392,12 +396,12 @@
         "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\drawable\\rcb.png"
     },
     {
-        "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-merged_res-85:\\drawable_prediction_b.jpg.flat",
-        "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\drawable\\prediction_b.jpg"
-    },
-    {
         "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-merged_res-85:\\drawable_baseline_share_24.xml.flat",
         "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\drawable\\baseline_share_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-merged_res-85:\\drawable_prediction_b.jpg.flat",
+        "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\drawable\\prediction_b.jpg"
     },
     {
         "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-merged_res-85:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",

@@ -7,7 +7,7 @@
     android:background="@color/blue"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
-    tools:context="com.cric.ipl25.chatN">
+    tools:context="com.cric.ipl25.chat.chatN">
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView2"

@@ -203,7 +203,14 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="IPL 25" type="f1a62948:ProjectNode" />
                 <item name="app" type="2d1252cf:ModuleNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="IPL 25" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -296,7 +303,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
     &quot;show.do.not.copy.http.proxy.settings.to.gradle&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -325,8 +332,8 @@
       <recent name="com.cric.ipl25" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\res\drawable" />
       <recent name="C:\Users\msi\AndroidStudioProjects\IPL25\app" />
+      <recent name="C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\res\drawable" />
       <recent name="C:\Users\msi\AndroidStudioProjects\IPL25\app\build\generated\source\kapt\debug\com\cric\ipl25" />
       <recent name="C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\res\raw" />
       <recent name="C:\Users\Shubham Rajurpalle\AndroidStudioProjects\IPL25\app\src\main\res\drawable" />
@@ -338,9 +345,11 @@
       <recent name="com.example.ipl25" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\java\com\cric\ipl25\quiz" />
       <recent name="C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\java\com\cric\ipl25\meme" />
-      <recent name="C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\res\drawable" />
-      <recent name="C:\Users\msi\AndroidStudioProjects\IPL25\app" />
+      <recent name="C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\java\com\cric\ipl25\main\iplTeamList" />
+      <recent name="C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\java\com\cric\ipl25\main\GridViewNavigation" />
+      <recent name="C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\java\com\cric\ipl25\main" />
     </key>
     <key name="android.template.-773074141">
       <recent name="com.example.study_sathi" />
@@ -349,8 +358,11 @@
       <recent name="com.example.ipl25" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
-      <recent name="com.cric.ipl25.chat" />
-      <recent name="com.cric.ipl25" />
+      <recent name="com.cric.ipl25.quizActivity" />
+      <recent name="com.cric.ipl25.meme" />
+      <recent name="com.cric.ipl25.pointTable" />
+      <recent name="com.cric.ipl25.main.GridViewNavigation" />
+      <recent name="com.cric.ipl25.main.LiveScoreScreen" />
     </key>
     <key name="android.template.-1989041329">
       <recent name="com.example.ipl25" />
@@ -703,9 +715,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Version 2" />
     <MESSAGE value="Version 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1" />
+    <MESSAGE value="Version 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -721,7 +733,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/cric/ipl25/chat/chatN.kt</url>
-          <line>64</line>
+          <line>56</line>
           <properties class="com.cric.ipl25.chat.chatN">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

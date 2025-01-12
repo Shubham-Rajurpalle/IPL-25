@@ -12,16 +12,12 @@ import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.cric.ipl25.MainActivity
-import com.cric.ipl25.MemeViewModel
-import com.cric.ipl25.reportFragment
+import com.cric.ipl25.main.MainActivity
 import com.crick.ipl25.R
 import com.crick.ipl25.databinding.ActivityMemeBinding
-import com.google.android.gms.ads.interstitial.InterstitialAd
 
 class meme : AppCompatActivity(), reportFragment.ConfirmationListener {
 
-    private var mInterstitialAd: InterstitialAd? = null
     private val TAG = "MemeActivity"
 
     val viewModel: MemeViewModel by viewModels()

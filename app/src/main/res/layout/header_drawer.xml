@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/_150sdp"
-    android:background="#2ED5FF"
-    android:padding="@dimen/_20sdp"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:layout_height="@dimen/_180sdp"
+    android:background="#00B6FF"
+    android:padding="@dimen/_20sdp">
 
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="@dimen/_20sdp"
         android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_20sdp"
         android:layout_marginEnd="@dimen/_30sdp"
-        android:scaleType="fitCenter"
-        android:background="@drawable/ip" />
+        android:background="@drawable/ip"
+        android:padding="@dimen/_20sdp"
+        android:scaleType="fitCenter" />
 
 </LinearLayout>

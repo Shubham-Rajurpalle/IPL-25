@@ -116,8 +116,8 @@
 62-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:22:9-44
 63        <activity
 63-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:25:9-32:20
-64            android:name="com.cric.ipl25.Splash"
-64-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:26:13-49
+64            android:name="com.cric.ipl25.main.Splash"
+64-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:26:13-54
 65            android:exported="true" >
 65-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:27:13-36
 66            <intent-filter>
@@ -133,86 +133,86 @@
 71        </activity>
 72        <activity
 72-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:34:9-37:51
-73            android:name="com.cric.ipl25.chatN"
-73-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:35:13-48
+73            android:name="com.cric.ipl25.chat.chatN"
+73-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:35:13-53
 74            android:exported="true"
 74-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:36:13-36
 75            android:hardwareAccelerated="false" />
 75-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:37:13-48
 76        <activity
 76-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:38:9-41:50
-77            android:name="com.cric.ipl25.memeAdd"
-77-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:39:13-50
+77            android:name="com.cric.ipl25.meme.memeAdd"
+77-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:39:13-55
 78            android:exported="false"
 78-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:40:13-37
 79            android:hardwareAccelerated="true" />
 79-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:41:13-47
 80        <activity
 80-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:42:9-45:51
-81            android:name="com.cric.ipl25.quiz"
-81-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:43:13-47
+81            android:name="com.cric.ipl25.quizActivity.quiz"
+81-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:43:13-60
 82            android:exported="false"
 82-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:44:13-37
 83            android:hardwareAccelerated="false" />
 83-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:45:13-48
 84        <activity
 84-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:46:9-49:50
-85            android:name="com.cric.ipl25.meme"
-85-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:47:13-47
+85            android:name="com.cric.ipl25.meme.meme"
+85-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:47:13-52
 86            android:exported="false"
 86-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:48:13-37
 87            android:hardwareAccelerated="true" />
 87-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:49:13-47
 88        <activity
 88-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:50:9-53:51
-89            android:name="com.cric.ipl25.live_score"
-89-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:51:13-53
+89            android:name="com.cric.ipl25.liveScore.live_score"
+89-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:51:13-63
 90            android:exported="false"
 90-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:52:13-37
 91            android:hardwareAccelerated="false" />
 91-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:53:13-48
 92        <activity
 92-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:54:9-57:51
-93            android:name="com.cric.ipl25.money_activity"
-93-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:55:13-57
+93            android:name="com.cric.ipl25.money.money_activity"
+93-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:55:13-63
 94            android:exported="false"
 94-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:56:13-37
 95            android:hardwareAccelerated="false" />
 95-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:57:13-48
 96        <activity
 96-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:58:9-61:50
-97            android:name="com.cric.ipl25.winners_activity"
-97-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:59:13-59
+97            android:name="com.cric.ipl25.winner.winners_activity"
+97-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:59:13-66
 98            android:exported="false"
 98-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:60:13-37
 99            android:hardwareAccelerated="true" />
 99-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:61:13-47
 100        <activity
 100-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:62:9-65:50
-101            android:name="com.cric.ipl25.venue_activity"
-101-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:63:13-57
+101            android:name="com.cric.ipl25.venue.venue_activity"
+101-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:63:13-63
 102            android:exported="false"
 102-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:64:13-37
 103            android:hardwareAccelerated="true" />
 103-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:65:13-47
 104        <activity
 104-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:66:9-69:50
-105            android:name="com.cric.ipl25.recycler_team_activity"
-105-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:67:13-65
+105            android:name="com.cric.ipl25.main.iplTeamList.recycler_team_activity"
+105-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:67:13-82
 106            android:exported="false"
 106-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:68:13-37
 107            android:hardwareAccelerated="true" />
 107-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:69:13-47
 108        <activity
 108-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:70:9-72:40
-109            android:name="com.cric.ipl25.point_table_acitivity"
-109-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:71:13-64
+109            android:name="com.cric.ipl25.pointTable.point_table_acitivity"
+109-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:71:13-75
 110            android:exported="false" />
 110-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:72:13-37
 111        <activity
 111-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:73:9-78:20
-112            android:name="com.cric.ipl25.MainActivity"
-112-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:74:13-55
+112            android:name="com.cric.ipl25.main.MainActivity"
+112-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:74:13-60
 113            android:exported="true"
 113-->C:\Users\msi\AndroidStudioProjects\IPL25\app\src\main\AndroidManifest.xml:75:13-36
 114            android:hardwareAccelerated="false" >

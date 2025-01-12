@@ -13,7 +13,7 @@ import androidx.cardview.widget.CardView;
 import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
-import com.cric.ipl25.Meme_data;
+import com.cric.ipl25.meme.Meme_data;
 import com.crick.ipl25.R;
 import java.lang.Deprecated;
 import java.lang.Object;

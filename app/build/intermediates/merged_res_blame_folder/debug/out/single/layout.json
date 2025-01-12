@@ -4,24 +4,24 @@
         "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\layout\\meme_card.xml"
     },
     {
-        "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-mergeDebugResources-84:\\layout\\activity_meme.xml",
-        "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\layout\\activity_meme.xml"
+        "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-mergeDebugResources-84:\\layout\\fragment_report_chat.xml",
+        "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\layout\\fragment_report_chat.xml"
     },
     {
         "merged": "com.crick.ipl25.app-mergeDebugResources-84:/layout/fragment_report_chat.xml",
         "source": "com.crick.ipl25.app-main-87:/layout/fragment_report_chat.xml"
     },
     {
-        "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-mergeDebugResources-84:\\layout\\fragment.xml",
-        "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\layout\\fragment.xml"
+        "merged": "com.crick.ipl25.app-mergeDebugResources-84:/layout/fragment_team_selection_fragement.xml",
+        "source": "com.crick.ipl25.app-main-87:/layout/fragment_team_selection_fragement.xml"
     },
     {
         "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-mergeDebugResources-84:\\layout\\activity_meme_add.xml",
         "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\layout\\activity_meme_add.xml"
     },
     {
-        "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-mergeDebugResources-84:\\layout\\fragment_quiz.xml",
-        "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\layout\\fragment_quiz.xml"
+        "merged": "com.crick.ipl25.app-mergeDebugResources-84:/layout/fragment_quiz.xml",
+        "source": "com.crick.ipl25.app-main-87:/layout/fragment_quiz.xml"
     },
     {
         "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-mergeDebugResources-84:\\layout\\fragment_report.xml",
@@ -30,5 +30,33 @@
     {
         "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-mergeDebugResources-84:\\layout\\fragment_team_selection_fragement.xml",
         "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\layout\\fragment_team_selection_fragement.xml"
+    },
+    {
+        "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-mergeDebugResources-84:\\layout\\activity_meme.xml",
+        "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\layout\\activity_meme.xml"
+    },
+    {
+        "merged": "com.crick.ipl25.app-mergeDebugResources-84:/layout/meme_card.xml",
+        "source": "com.crick.ipl25.app-main-87:/layout/meme_card.xml"
+    },
+    {
+        "merged": "com.crick.ipl25.app-mergeDebugResources-84:/layout/activity_meme.xml",
+        "source": "com.crick.ipl25.app-main-87:/layout/activity_meme.xml"
+    },
+    {
+        "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-mergeDebugResources-84:\\layout\\fragment.xml",
+        "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\layout\\fragment.xml"
+    },
+    {
+        "merged": "com.crick.ipl25.app-mergeDebugResources-84:/layout/activity_meme_add.xml",
+        "source": "com.crick.ipl25.app-main-87:/layout/activity_meme_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-mergeDebugResources-84:\\layout\\fragment_quiz.xml",
+        "source": "C:\\Users\\msi\\.gradle\\daemon\\7.5\\com.crick.ipl25.app-main-87:\\layout\\fragment_quiz.xml"
+    },
+    {
+        "merged": "com.crick.ipl25.app-mergeDebugResources-84:/layout/fragment_report.xml",
+        "source": "com.crick.ipl25.app-main-87:/layout/fragment_report.xml"
     }
 ]

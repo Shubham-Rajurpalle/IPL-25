@@ -14,7 +14,7 @@ final class GeneratedAppGlideModuleImpl extends GeneratedAppGlideModule {
   public GeneratedAppGlideModuleImpl(Context context) {
     appGlideModule = new MyAppGlideModule();
     if (Log.isLoggable("Glide", Log.DEBUG)) {
-      Log.d("Glide", "Discovered AppGlideModule from annotation: com.cric.ipl25.MyAppGlideModule");
+      Log.d("Glide", "Discovered AppGlideModule from annotation: com.cric.ipl25.meme.MyAppGlideModule");
     }
   }
 

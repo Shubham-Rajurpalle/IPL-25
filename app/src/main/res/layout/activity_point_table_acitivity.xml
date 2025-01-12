@@ -7,7 +7,7 @@
     android:background="@color/blue"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
-    tools:context="com.cric.ipl25.point_table_acitivity">
+    tools:context="com.cric.ipl25.pointTable.point_table_acitivity">
 
         <ImageView
             android:id="@+id/imageView3"

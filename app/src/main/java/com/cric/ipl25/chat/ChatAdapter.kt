@@ -50,7 +50,6 @@ class ChatAdapter(private val reportListener: ReportListener, private var messag
             cardView.setCardBackgroundColor(teamColor)
 
             reportBtn.setOnClickListener {
-                chatMessage.reportCount=chatMessage.reportCount+1
                 listener.onReportConfirming(chatMessage.messageId,chatMessage.reportCount)
             }
 
@@ -84,6 +83,6 @@ class ChatAdapter(private val reportListener: ReportListener, private var messag
     }
 
     interface ReportListener {
-        fun onReportConfirming(chatMessage: String, reportCount: Int)
+        fun onReportConfirming(messageId: String, reportCount: Int)
     }
 }

@@ -61,7 +61,7 @@
         android:theme="@style/Theme.IPL25"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.cric.ipl25.Splash"
+            android:name="com.cric.ipl25.main.Splash"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -70,46 +70,46 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.cric.ipl25.chatN"
+            android:name="com.cric.ipl25.chat.chatN"
             android:exported="true"
             android:hardwareAccelerated="false" />
         <activity
-            android:name="com.cric.ipl25.memeAdd"
+            android:name="com.cric.ipl25.meme.memeAdd"
             android:exported="false"
             android:hardwareAccelerated="true" />
         <activity
-            android:name="com.cric.ipl25.quiz"
+            android:name="com.cric.ipl25.quizActivity.quiz"
             android:exported="false"
             android:hardwareAccelerated="false" />
         <activity
-            android:name="com.cric.ipl25.meme"
+            android:name="com.cric.ipl25.meme.meme"
             android:exported="false"
             android:hardwareAccelerated="true" />
         <activity
-            android:name="com.cric.ipl25.live_score"
+            android:name="com.cric.ipl25.liveScore.live_score"
             android:exported="false"
             android:hardwareAccelerated="false" />
         <activity
-            android:name="com.cric.ipl25.money_activity"
+            android:name="com.cric.ipl25.money.money_activity"
             android:exported="false"
             android:hardwareAccelerated="false" />
         <activity
-            android:name="com.cric.ipl25.winners_activity"
+            android:name="com.cric.ipl25.winner.winners_activity"
             android:exported="false"
             android:hardwareAccelerated="true" />
         <activity
-            android:name="com.cric.ipl25.venue_activity"
+            android:name="com.cric.ipl25.venue.venue_activity"
             android:exported="false"
             android:hardwareAccelerated="true" />
         <activity
-            android:name="com.cric.ipl25.recycler_team_activity"
+            android:name="com.cric.ipl25.main.iplTeamList.recycler_team_activity"
             android:exported="false"
             android:hardwareAccelerated="true" />
         <activity
-            android:name="com.cric.ipl25.point_table_acitivity"
+            android:name="com.cric.ipl25.pointTable.point_table_acitivity"
             android:exported="false" />
         <activity
-            android:name="com.cric.ipl25.MainActivity"
+            android:name="com.cric.ipl25.main.MainActivity"
             android:exported="true"
             android:hardwareAccelerated="false" >
         </activity>

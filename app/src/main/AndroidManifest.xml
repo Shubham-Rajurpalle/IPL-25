@@ -7,7 +7,6 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
 
     <application
         android:allowBackup="true"
@@ -23,7 +22,7 @@
         tools:targetApi="34">
 
         <activity
-            android:name="com.cric.ipl25.Splash"
+            android:name="com.cric.ipl25.main.Splash"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -40,7 +39,7 @@
             android:exported="false"
             android:hardwareAccelerated="true" />
         <activity
-            android:name="com.cric.ipl25.quiz"
+            android:name="com.cric.ipl25.quizActivity.quiz"
             android:exported="false"
             android:hardwareAccelerated="false" />
         <activity
@@ -48,38 +47,35 @@
             android:exported="false"
             android:hardwareAccelerated="true" />
         <activity
-            android:name="com.cric.ipl25.live_score"
+            android:name="com.cric.ipl25.liveScore.live_score"
             android:exported="false"
             android:hardwareAccelerated="false" />
         <activity
-            android:name="com.cric.ipl25.money_activity"
+            android:name="com.cric.ipl25.money.money_activity"
             android:exported="false"
             android:hardwareAccelerated="false" />
         <activity
-            android:name="com.cric.ipl25.winners_activity"
+            android:name="com.cric.ipl25.winner.winners_activity"
             android:exported="false"
             android:hardwareAccelerated="true" />
         <activity
-            android:name="com.cric.ipl25.venue_activity"
+            android:name="com.cric.ipl25.venue.venue_activity"
             android:exported="false"
             android:hardwareAccelerated="true" />
         <activity
-            android:name="com.cric.ipl25.recycler_team_activity"
+            android:name="com.cric.ipl25.main.iplTeamList.recycler_team_activity"
             android:exported="false"
             android:hardwareAccelerated="true" />
         <activity
-            android:name="com.cric.ipl25.point_table_acitivity"
+            android:name="com.cric.ipl25.pointTable.point_table_acitivity"
             android:exported="false" />
         <activity
-            android:name="com.cric.ipl25.MainActivity"
+            android:name="com.cric.ipl25.main.MainActivity"
             android:exported="true"
             android:hardwareAccelerated="false">
 
         </activity>
 
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713" />
     </application>
 
 </manifest>
